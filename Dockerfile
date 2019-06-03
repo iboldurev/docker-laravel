@@ -19,7 +19,7 @@ RUN tar xzf /tmp/s6-overlay-amd64.tar.gz -C /
 # PHP
 RUN apt-get update && \
     apt-get install -y \
-    nginx wget sudo autoconf ffmpeg autogen language-pack-en-base wget zip unzip curl rsync ssh openssh-client git \
+    mc nginx wget sudo autoconf ffmpeg autogen language-pack-en-base wget zip unzip curl rsync ssh openssh-client git \
     build-essential apt-utils software-properties-common nasm libjpeg-dev libpng-dev libpng16-16 \
     php${PHP_VERSION}-fpm \
     php${PHP_VERSION}-opcache \
